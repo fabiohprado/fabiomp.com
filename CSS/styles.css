@@ -1,16 +1,75 @@
 #titulo{
-  background-color: #000000;
+  background-color: #212121;
 }
  #conteudo{
-  background-color: #000000;
+  background-color: #323232;
  }
  #rodape{
-  background-color: #000000;
+  background-color: #212121;
  }
 
  h1{
   font-family: "Montserrat";
-  font-size: 5.0rem;
-  color: whitesmoke;
-  padding-top: 160px;
+  color: white;
+  font-size: 70px;
+  padding-top: 20%;
  }
+ h3{
+   font-family: "Montserrat";
+   color: white;
+ }
+ p{
+   color: white;
+   font-family: "Open-Sans";
+   font-size: 20px;
+ }
+ .grid-item01, .grid-item02{
+   text-align: center;
+ }
+ .imagemCapa{
+   width: 40%;
+   padding-top: 3%;
+ }
+ .fa-brands{
+   color: white;
+   text-decoration: none;
+ }
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+.me{
+  padding: 3% 2%;
+  font-family: "Montserrat";
+  color: white;
+  font-size: 80px;
+}
+.pcbuilding{
+  padding: 3% 20%;
+}
+.description{
+  text-align: center;
+  font-family: "Montserrat";
+  
+}
+
+.linked:hover{
+  color: #0072b1;
+}
+.git:hover{
+  color: #000000;
+}
+.insta:hover{
+  color: #c13584;
+}
+@media (max-width: 1350px){
+  .me{
+    padding: 3% 2%;
+    font-family: "Montserrat";
+    color: white;
+    font-size: 60px;
+  }
+  .pcbuilding{
+    width: 80%;
+  }
+}
