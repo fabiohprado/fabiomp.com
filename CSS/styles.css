@@ -12,11 +12,12 @@
   font-family: "Montserrat";
   color: white;
   font-size: 70px;
-  padding-top: 20%;
+  padding-top: 25%;
  }
  h3{
    font-family: "Montserrat";
    color: white;
+   padding-bottom: 20%;
  }
  p{
    color: white;
@@ -28,7 +29,7 @@
  }
  .imagemCapa{
    width: 40%;
-   padding-top: 3%;
+   padding-top: 10%;
  }
  .fa-brands{
    color: white;
@@ -38,19 +39,50 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
+.container-conteudo{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+}
+.rodape-container{
+  text-align: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 10px;
+}
 .me{
+  text-align:  center;
   padding: 3% 2%;
   font-family: "Montserrat";
   color: white;
   font-size: 80px;
 }
-.pcbuilding{
-  padding: 3% 20%;
+.esquerda{
+  text-align: center;
 }
-.description{
+.pcimg{
+  text-align: center;
+  padding: 3%;
+  width: 600px;
+}
+.descricao{
+  padding: 0 3%;
+  text-align: left;
+  font-family: "Montserrat";
+}
+.photo{
   text-align: center;
   font-family: "Montserrat";
-  
+  padding: 3% 0 0;
+}
+.phdesc{
+  text-align: center;
+  font-family: "OpenSans";
+}
+.item-img{
+  width: 400px;
+  object-fit: cover;
 }
 
 .linked:hover{
@@ -62,14 +94,11 @@
 .insta:hover{
   color: #c13584;
 }
-@media (max-width: 1350px){
-  .me{
-    padding: 3% 2%;
+@media (max-width: 1216px){
+  .descricao{
+    padding: 5% 3%;
+    text-align: center;
     font-family: "Montserrat";
-    color: white;
-    font-size: 60px;
-  }
-  .pcbuilding{
-    width: 80%;
+
   }
 }
